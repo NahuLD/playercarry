@@ -1,0 +1,7 @@
+main: me.nahuld.playercarry.Main
+version: v1.0.0
+
+name: AntiHostile
+description: Carry your friends with you with this plugin!
+
+author: NahuLD
