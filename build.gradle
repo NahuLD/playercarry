@@ -9,11 +9,13 @@ version '1.0.0'
 sourceCompatibility = 1.8
 
 repositories {
+    maven { url = 'https://repo.aikar.co/content/groups/aikar/' }
     maven { url = 'https://oss.sonatype.org/content/groups/public/' }
     mavenLocal()
 }
 
 dependencies {
+    compile 'co.aikar:acf-bukkit:0.5.0-SNAPSHOT'
     compileOnly 'org.bukkit:bukkit:1.12.2-R0.1-SNAPSHOT'
 }
 
